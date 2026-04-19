@@ -1,6 +1,6 @@
 # Site
 repository: raahimausman/raahima-resume
-# favicon: images/favicon.ico
+favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -63,7 +63,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: left
+      - layout: top
         title: Confiz Limited
         sub_title: AI Engineering Intern
         caption: Jun 2025 – Jul 2025 · Lahore, Pakistan
@@ -73,7 +73,7 @@ content:
           - Analyzed sentiment across 1,000+ customer calls using Azure OpenAI with multi-label tagging; surfaced results via Power BI dashboards and automated alerts, cutting service-issue triage from ~3 days to under 1 day.
           - **Tech stack:** Python (pandas, scikit-learn), FastAPI, Next.js/React (TypeScript), Azure OpenAI, Power BI, Git
 
-      - layout: left
+      - layout: top
         title: Lahore University of Management Sciences (LUMS)
         sub_title: Teaching Assistant – Statistics for Humanities
         caption: Sep 2025 – Dec 2025
@@ -83,7 +83,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: left
+      - layout: top
         title: Lahore University of Management Sciences (LUMS)
         sub_title: B.Sc. in Computer Science
         caption: Expected May 2026 · Lahore, Pakistan
@@ -93,7 +93,7 @@ content:
   - title: Research
     layout: list
     content:
-      - layout: left
+      - layout: top
         title: AI-Authored Software Maintenance Analysis
         sub_title: Empirical Software Engineering – Hindle’s Taxonomy
         description: |
