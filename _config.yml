@@ -13,7 +13,7 @@ phone: +92 331 1115097
 website: https://github.com/raahimausman
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 github_username: raahimausman
@@ -39,15 +39,26 @@ about_content: |
   Computer science student at LUMS with hands-on experience in <mark>AI engineering</mark>, <mark>full-stack development</mark>, and <mark>empirical software engineering research</mark>. I have shipped production systems on Kubernetes, built agentic ML pipelines, and led coursework support as a teaching assistant.
 
 content:
-  - title: Education
+  - title: Projects
     layout: list
     content:
       - layout: left
-        title: Lahore University of Management Sciences (LUMS)
-        sub_title: B.Sc. in Computer Science
-        caption: Expected May 2026 · Lahore, Pakistan
+        title: Granite Inventory & Order Management System
+        caption: Senior Year Project · Sept 2025 – Present
         description: |
-          Coursework and projects spanning software engineering, machine learning, statistics, and systems.
+          - Built and deployed a full-stack platform in production for a granite manufacturer, digitizing inventory, quotations, orders, and dispatch — cut quote turnaround by ~60%.
+          - Shipped AI demand forecasting (250+ SKUs, auto-PO generation) and a Gradient Boosting Regressor for quote pricing (R² = 0.95) — deployed as Python microservices in sales and procurement flows.
+          - Deployed and maintained on Oracle Kubernetes Engine with a full CI/CD pipeline, serving 100+ concurrent users.
+          - Secured a 25+ endpoint REST API with role-based access, rate limiting, and audit logging. Added QR-based block tracking for real-time inventory visibility.
+          - **Tech stack:** Node.js, React 19, Express, MongoDB, JWT, Tailwind, Cloudinary, Docker, OKE, Vercel
+
+      - layout: left
+        title: Go-Kart Booking Platform
+        caption: Jan 2025 – May 2025
+        description: |
+          - Implemented a full-stack booking platform with the MERN stack featuring JWT authentication, bcrypt-secured accounts, and integrated payment gateway processing.
+          - Built a responsive React UI with real-time GPS tracking, dynamic leaderboards, and live race status updates.
+          - **Tech stack:** MongoDB, Express, React, Node.js, Mongoose, Axios
 
   - title: Experience
     layout: list
@@ -69,26 +80,15 @@ content:
         description: |
           - Supported 60+ students through weekly lab sessions and homework grading; provided one-on-one tutoring to 20+ students on statistical concepts and data interpretation.
 
-  - title: Projects
+  - title: Education
     layout: list
     content:
       - layout: left
-        title: Granite Inventory & Order Management System
-        caption: Senior Year Project · Sept 2025 – Present
+        title: Lahore University of Management Sciences (LUMS)
+        sub_title: B.Sc. in Computer Science
+        caption: Expected May 2026 · Lahore, Pakistan
         description: |
-          - Built and deployed a full-stack platform in production for a granite manufacturer, digitizing inventory, quotations, orders, and dispatch — cut quote turnaround by ~60%.
-          - Shipped AI demand forecasting (250+ SKUs, auto-PO generation) and a Gradient Boosting Regressor for quote pricing (R² = 0.95) — deployed as Python microservices in sales and procurement flows.
-          - Deployed and maintained on Oracle Kubernetes Engine with a full CI/CD pipeline, serving 100+ concurrent users.
-          - Secured a 25+ endpoint REST API with role-based access, rate limiting, and audit logging. Added QR-based block tracking for real-time inventory visibility.
-          - **Tech stack:** Node.js, React 19, Express, MongoDB, JWT, Tailwind, Cloudinary, Docker, OKE, Vercel
-
-      - layout: left
-        title: Go-Kart Booking Platform
-        caption: Jan 2025 – May 2025
-        description: |
-          - Implemented a full-stack booking platform with the MERN stack featuring JWT authentication, bcrypt-secured accounts, and integrated payment gateway processing.
-          - Built a responsive React UI with real-time GPS tracking, dynamic leaderboards, and live race status updates.
-          - **Tech stack:** MongoDB, Express, React, Node.js, Mongoose, Axios
+          Coursework and projects spanning software engineering, machine learning, statistics, and systems.
 
   - title: Research
     layout: list
