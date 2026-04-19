@@ -36,13 +36,13 @@ additional_links:
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
-  Computer science student at LUMS with hands-on experience in <mark>AI engineering</mark>, <mark>full-stack development</mark>, and <mark>empirical software engineering research</mark>. I have shipped production systems on Kubernetes, built agentic ML pipelines, and led coursework support as a teaching assistant.
+  I am a Computer Science student at LUMS with experience spanning full-stack development, AI engineering and empirical software research. I have shipped production systems, built ML-powered microservices and spent months classifying 6,200+ GitHub commits to understand how AI agents write code. I care about work that is both technically rigorous and practically useful, and I'm actively looking for opportunities where I can do more of it.
 
 content:
   - title: Projects
     layout: list
     content:
-      - layout: left
+      - layout: top
         title: Granite Inventory & Order Management System
         caption: Senior Year Project · Sept 2025 – Present
         description: |
@@ -52,7 +52,7 @@ content:
           - Secured a 25+ endpoint REST API with role-based access, rate limiting, and audit logging. Added QR-based block tracking for real-time inventory visibility.
           - **Tech stack:** Node.js, React 19, Express, MongoDB, JWT, Tailwind, Cloudinary, Docker, OKE, Vercel
 
-      - layout: left
+      - layout: top
         title: Go-Kart Booking Platform
         caption: Jan 2025 – May 2025
         description: |
@@ -88,7 +88,7 @@ content:
         sub_title: B.Sc. in Computer Science
         caption: Expected May 2026 · Lahore, Pakistan
         description: |
-          Coursework and projects spanning software engineering, machine learning, statistics, and systems.
+          Relevant coursework spans systems and software (Operating Systems, Network-Centric Computing, Databases, Software Engineering), AI and data (Foundations of AI & ML, Data Science), algorithms, and a strong mathematics foundation in Linear Algebra, Probability, Calculus and Discrete Mathematics.
 
   - title: Research
     layout: list
