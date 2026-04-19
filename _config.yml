@@ -42,7 +42,7 @@ content:
   - title: Projects
     layout: list
     content:
-      - layout: top
+      - layout: top-middle
         title: Granite Inventory & Order Management System
         caption: Senior Year Project · Sept 2025 – Present
         description: |
@@ -52,7 +52,7 @@ content:
           - Secured a 25+ endpoint REST API with role-based access, rate limiting, and audit logging. Added QR-based block tracking for real-time inventory visibility.
           - **Tech stack:** Node.js, React 19, Express, MongoDB, JWT, Tailwind, Cloudinary, Docker, OKE, Vercel
 
-      - layout: top
+      - layout: top-middle
         title: Go-Kart Booking Platform
         caption: Jan 2025 – May 2025
         description: |
@@ -63,7 +63,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: top
+      - layout: top-middle
         title: Confiz Limited
         sub_title: AI Engineering Intern
         caption: Jun 2025 – Jul 2025 · Lahore, Pakistan
@@ -73,7 +73,7 @@ content:
           - Analyzed sentiment across 1,000+ customer calls using Azure OpenAI with multi-label tagging; surfaced results via Power BI dashboards and automated alerts, cutting service-issue triage from ~3 days to under 1 day.
           - **Tech stack:** Python (pandas, scikit-learn), FastAPI, Next.js/React (TypeScript), Azure OpenAI, Power BI, Git
 
-      - layout: top
+      - layout: top-middle
         title: Lahore University of Management Sciences (LUMS)
         sub_title: Teaching Assistant – Statistics for Humanities
         caption: Sep 2025 – Dec 2025
@@ -83,7 +83,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top
+      - layout: top-middle
         title: Lahore University of Management Sciences (LUMS)
         sub_title: B.Sc. in Computer Science
         caption: Expected May 2026 · Lahore, Pakistan
@@ -93,7 +93,7 @@ content:
   - title: Research
     layout: list
     content:
-      - layout: top
+      - layout: top-middle
         title: AI-Authored Software Maintenance Analysis
         sub_title: Empirical Software Engineering – Hindle’s Taxonomy
         description: |
